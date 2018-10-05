@@ -68,7 +68,7 @@ end
 def get_average_age_for_season(data, season)
   sum = 0.0
   blank = []
-
+average = 0
   data[season].each do |hash|
     hash.each do |key, value|
       if key == "age"
@@ -77,5 +77,5 @@ def get_average_age_for_season(data, season)
       end
     end
   end
-  returns sum/blank.length
+  return average = sum/blank.length
 end
