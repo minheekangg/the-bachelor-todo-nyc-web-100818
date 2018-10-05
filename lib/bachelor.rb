@@ -74,5 +74,8 @@ def get_average_age_for_season(data, season)
       if key == "age"
         sum = sum + value
         blank << value
+      end
+    end
+  end
 
 end
