@@ -25,6 +25,7 @@ def get_contestant_name(data, occupation)
             if key2 == "name"
               return value2
             end
+            learn
         end
       end
     end
