@@ -21,6 +21,10 @@ def get_contestant_name(data, occupation)
       hash.each do |labels, values|
         if values == occupation
           return hash[:name]
+        end
+      end
+    end
+  end
 end
 
 def count_contestants_by_hometown(data, hometown)
