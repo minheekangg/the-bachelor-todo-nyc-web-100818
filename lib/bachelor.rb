@@ -78,5 +78,5 @@ average = 0
     end
   end
   return average = (sum/blank.length * 2)/2
-  puts average
+  puts average.floor
 end
