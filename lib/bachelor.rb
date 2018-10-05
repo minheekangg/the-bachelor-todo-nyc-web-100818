@@ -22,7 +22,7 @@ def get_contestant_name(data, occupation)
         if values == occupation
           new_hash = hash
           return new_hash[":name"]
-          puts new_hash[:name]
+          puts new_hash[":name"]
         end
       end
     end
