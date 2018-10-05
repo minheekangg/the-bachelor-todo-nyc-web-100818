@@ -1,7 +1,5 @@
 def get_first_name_of_season_winner(data, season)
-  data.each do |season, keys|
-    if season == season
-      puts season
+  data.each do |top, layers|
     keys.each do |key, value|
       if key == :status && value == "winner"
 
