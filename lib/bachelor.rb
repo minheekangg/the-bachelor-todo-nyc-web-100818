@@ -66,10 +66,11 @@ def get_occupation(data, hometown)
 end
 
 def get_average_age_for_season(data, season)
-  sum = ()
+  sum = 0.0
   blank = []
+
   data[season].each do |hash|
     hash.each do |key, value|
       if key == "age"
-        average
+        sum = sum
 end
