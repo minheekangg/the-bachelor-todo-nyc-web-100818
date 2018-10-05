@@ -77,5 +77,5 @@ average = 0
       end
     end
   end
-  return average = (sum/blank.length).floor
+  return average = (sum/blank.length).round
 end
