@@ -4,7 +4,7 @@ def get_first_name_of_season_winner(data, season)
       puts season
     keys.each do |key, value|
       if key == :status && value == "winner"
-        puts "key"
+
       end
     end
   end
