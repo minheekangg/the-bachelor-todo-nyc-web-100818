@@ -1,5 +1,9 @@
 def get_first_name_of_season_winner(data, season)
-  puts data[season]
+  data[season].each do |hash|
+    hash.each do |key, value|
+      if key == "status" && value == "Winner"
+        
+  end
 end
 
 def get_contestant_name(data, occupation)
