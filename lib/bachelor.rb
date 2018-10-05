@@ -1,11 +1,12 @@
 def get_first_name_of_season_winner(data, season)
+  return_name = ""
   data[season].each do |hash|
     hash.each do |key, value|
       if key == "status" && value == "Winner"
       new_hash = hash
       new_hash.each do |key2, value2|
         if key2 == "name"
-          return value2.to_s.split(" ")
+          return return_name = value2.to_s.split(" ")
         end
       end
       end
