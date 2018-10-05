@@ -77,6 +77,6 @@ average = 0
       end
     end
   end
-  return average = (sum/blank.length *2)/2
+  return average = (sum/blank.length * 2)/2
   puts average
 end
