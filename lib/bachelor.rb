@@ -4,6 +4,7 @@ def get_first_name_of_season_winner(data, season)
       if key == "status" && value == "Winner"
         return hash
       end
+    end
   end
 end
 
