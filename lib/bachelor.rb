@@ -6,6 +6,7 @@ def get_first_name_of_season_winner(data, season)
           if label == "status" && values == "winner"
             return data[layers][season][name]
           end
+        end
       end
     end
   end
