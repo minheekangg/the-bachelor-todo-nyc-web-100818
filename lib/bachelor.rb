@@ -72,7 +72,7 @@ def get_average_age_for_season(data, season)
   data[season].each do |hash|
     hash.each do |key, value|
       if key == "age"
-        sum = sum + value
+        sum = sum + value.to_i
         puts sum
         blank << value
       end
