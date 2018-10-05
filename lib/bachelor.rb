@@ -3,6 +3,9 @@ def get_first_name_of_season_winner(data, season)
     hash.each do |key, value|
       if key == "status" && value == "Winner"
       new_hash = hash
+      new_hash.each do |key2, value2|
+        if key2 == "name"
+          return value2
       end
     end
   end
