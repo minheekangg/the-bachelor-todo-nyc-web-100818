@@ -19,6 +19,7 @@ def get_contestant_name(data, occupation)
   data.each do |season, keys|
     keys.each do |hash|
       hash.each do |labels, values|
+        puts labels
         if values == occupation
           return hash[:name].value
         end
