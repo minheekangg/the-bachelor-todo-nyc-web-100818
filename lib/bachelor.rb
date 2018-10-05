@@ -24,6 +24,7 @@ def get_contestant_name(data, occupation)
           new_hash.each do |key2, value2|
             if key2 == "name"
               return value2
+            end
         end
       end
     end
