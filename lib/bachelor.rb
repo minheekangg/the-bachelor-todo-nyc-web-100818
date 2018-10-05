@@ -20,7 +20,7 @@ def get_contestant_name(data, occupation)
     keys.each do |hash|
       hash.each do |labels, values|
         if values == occupation
-          return hash[:name]
+          return hash[:name].value
         end
       end
     end
