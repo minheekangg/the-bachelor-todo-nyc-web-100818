@@ -21,7 +21,7 @@ def get_contestant_name(data, occupation)
       hash.each do |labels, values|
         if values == occupation
           new_hash = hash
-          return new_hash[name]
+          return new_hash[":name"]
           puts new_hash[:name]
         end
       end
