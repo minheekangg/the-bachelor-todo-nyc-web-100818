@@ -73,6 +73,7 @@ def get_average_age_for_season(data, season)
     hash.each do |key, value|
       if key == "age"
         sum = sum + value
+        puts sum
         blank << value
       end
     end
