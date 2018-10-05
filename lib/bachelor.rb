@@ -78,5 +78,4 @@ average = 0
     end
   end
   return average = (sum/blank.length).floor
-  puts average.floor
 end
