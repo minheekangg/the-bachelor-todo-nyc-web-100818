@@ -5,7 +5,7 @@ def get_first_name_of_season_winner(data, season)
       new_hash = hash
       new_hash.each do |key2, value2|
         if key2 == "name"
-          return value2.first
+          return value2.to_s.split(" ")
         end
       end
       end
